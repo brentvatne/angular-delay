@@ -1,5 +1,5 @@
 describe('angular-delay', function () {
-  beforeEach(module('bv.delay'));
+  beforeEach(module('ngDelay'));
 
   var $scope;
 
