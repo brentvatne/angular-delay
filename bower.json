@@ -1,0 +1,27 @@
+{
+  "name": "angular-delay",
+  "version": "0.1.0",
+  "authors": [
+    "Brent Vatne <brentvatne@gmail.com>"
+  ],
+  "description": "Delay execution of a ngChange callback",
+  "main": "./build/angular-delay.js",
+  "keywords": ["ngClick delay timeout","angular"],
+  "license": "MIT",
+  "homepage": "https://github.com/brentvatne/angular-delay",
+  "ignore": [
+    "src",
+    "node_modules",
+    "bower_components",
+    "test",
+    "karma.conf.js",
+    "package.json",
+    "README.md"
+  ],
+  "dependencies": {
+    "angular": ">= 1.0.0"
+  },
+  "devDependencies": {
+    "angular-mocks": ">= 1.0.0"
+  }
+}
