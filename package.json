@@ -16,7 +16,7 @@
     "test": "grunt test"
   },
   "keywords": ["ngClick delay timeout","angular"],
-  "author": "Brent Vatne <brentvatne@gmail.com>",
+  "author": "Doug R <http://stackoverflow.com/users/799755/doug-r>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/brentvatne/angular-delay/issues"
@@ -27,7 +27,7 @@
     "load-grunt-tasks": "~0.2.0",
     "karma": "~0.12.14",
     "karma-coffee-preprocessor": "~0.2.1",
-    "karma-chrome-launcher": "~0.1.3"
+    "karma-chrome-launcher": "~0.1.3",
     "karma-jasmine": "~0.1.5",
     "grunt": "~0.4.2",
     "grunt-contrib-uglify": "~0.2.2",
