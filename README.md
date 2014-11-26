@@ -21,3 +21,13 @@ angular.module('app', ['ngDelay']);
 
 This waits 1.5 seconds after the search has been changed before
 performing the `ng-change` callback.
+
+### Deprecated in Angular 1.3.x
+
+This is useful for Angular 1.2.x, but it is deprecated with Angular 1.3.x with the introduction of `ng-model-options` where you can now just do the following to have the same effect as `ng-delay="1500"`
+
+```html
+  <input ng-model="search" ng-model-options="{debounce: 1500}" />
+```
+
+Read more about [ng-model-options in the Angular docs](https://docs.angularjs.org/api/ng/directive/ngModelOptions).
